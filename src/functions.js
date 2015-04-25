@@ -33,7 +33,7 @@ var barType = typeof bar;
 
 //your code here
 bar = function (doubleArray) {
-    var x = 0;          // loop counter
+    var x;              // loop counter
     var isDoubled;      // bool value doubled
 
     for (x = 0; x < doubleArray.length; x++) {
@@ -84,5 +84,18 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
-
+//your code here
+function parseGit(logArray) {
+    var myLogArray = [];                            // empty array for gitlog items
+    var x;                                          // loop counter
+    var myHash, myDate, myMessage, myGit;           // vars for constructor
+    for (x = 0; x < logArray.length; x++) {
+        myHash = logArray[x].split(" ")[0];         // format array
+        myDate = logArray[x].substring(logArray[x].indexOf(" ") + 1, logArray[x].indexOf("\""));
+        myMessage = logArray[x].substring(logArray[x].indexOf("\"") + 1, logArray[x].lastIndexOf("\""));
+        myGit = new GitLog(myHash, new Date(myDate), myMessage);
+        myLogArray.push(myGit);                     // push constructor to array
+    }
+    return myLogArray;
+}
 //end your code
