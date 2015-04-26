@@ -1,1 +1,33 @@
-You log goes in this  file.
+Start: Sat, 25 Apr 2015 17:05:23 -0700
+End: Sat, 25 Apr 2015 17:18:23 -0700
+Tasks: Ran all files through JSlint, only needed to fix up 'variables.js'.
+
+Start: Sat, 25 Apr 2015 15:55:16 -0700
+End: Sat, 25 Apr 2015 16:26:16 -0700
+Tasks: Implemented variableModification, isString and isNull functions in a half an hour.
+
+Start: Sat, 25 Apr 2015 13:31:14 -0700
+End: Sat, 25 Apr 2015 15:31:14 -0700
+Tasks: Implemented returnObjectLiteral, MessageLog, the prototype and instances 
+for 2 hours. About 90 mins spent on logical errors with MessageLog.
+
+Start: Sat, 25 Apr 2015 13:31:14 -0700
+End: Sat, 25 Apr 2015 15:31:14 -0700
+Tasks: Implemented returnObjectLiteral, MessageLog, the prototype and instances 
+for 2 hours. About 90 mins spent on logical errors with MessageLog
+
+Start: Sat, 25 Apr 2015 12:45:05 -0700
+End: Sat, 25 Apr 2015 02:15:05 -0700
+Tasks: During this time I implemented parseGit in 1 hour, and fixed a couple of in 30 mins.
+
+Start: Fri, 24 Apr 2015 16:39:37 -0700
+End: Fri, 24 Apr 2015 17:29:37 -0700
+Tasks: Implementation of uselessFunction and anonymous function bar
+
+Start: NA
+End: Sun, 12 Apr 2015 03:54:42 -0700
+Tasks: Modified TA account
+
+Start: NA
+End: Sun, 12 Apr 2015 03:46:55 -0700
+Tasks: initial commit
